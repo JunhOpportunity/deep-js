@@ -10,3 +10,10 @@
 ## 자료형과 연산자
 - Falsy(null VS undefined)
 - 선언
+- 배열
+- in 연산자
+- spread 연산자
+
+## 함수
+- 콜백 함수
+- 렉시컬 스코프
