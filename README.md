@@ -13,7 +13,14 @@
 - 배열
 - in 연산자
 - spread 연산자
+- 콤마 연산자
 
 ## 함수
 - 콜백 함수
 - 렉시컬 스코프
+- call & apply & bind
+- 화살표 함수
+- async/await
+- 배열의 reduce 고차함수
+- 배열의 map & filter 고차함수
+- 함수를 리턴하는 함수
