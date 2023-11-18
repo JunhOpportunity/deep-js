@@ -16,3 +16,23 @@ let과 const의 경우에는 ① 변수선언 과정만 수행한다.
 +) TDZ(Temporal Dead Zone) : 변수의 선언과 초기화 사이에 일시적으로 변수 값을 참조할 수 없는 구간 (let과 const 호이스팅에서 발생)
 
 **⇒let과 const를 사용해 변수를 선언하고, 재할당의 경우가 아니면 const를 default로 사용.**
+
+## For 문 사용 시 var을 쓰면 안되는 이유
+
+For 반복문을 돌리기 위해 선언한 변수는 for 블록 안에서만 사용할 수 있는 것이 아니다. for문 외부에서도 사용이 가능하므로 사용 시에 주의해야 한다.
+
+```jsx
+for(var i=0; i<2; i++){
+	check(i)
+}
+console.log(i) // 2
+
+// 따라서 오해의 소지를 방지하기 위해 이렇게 사용하는 것이 좋다.
+
+var i;
+
+for(i=0; i<2; i++){
+	check(i)
+}
+console.log(i) // 2
+```
