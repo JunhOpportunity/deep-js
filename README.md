@@ -36,3 +36,6 @@
 - [웹 핵심 요소](https://github.com/JunhOpportunity/deep-js/blob/main/%EC%9B%B9/1-web-key-elements.md)
 - [브라우저 렌더링](https://github.com/JunhOpportunity/deep-js/blob/main/%EC%9B%B9/2-browser-rendering.md)
 - [렌더링 최적화](https://github.com/JunhOpportunity/deep-js/blob/main/%EC%9B%B9/3-rendering-optimization.md)
+- 모듈 번들러
+- 쿠키
+- 로컬 스토리지와 세션 스토리지
